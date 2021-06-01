@@ -23,7 +23,7 @@ check.addEventListener("click", function(){
         for (var i = 0; i < 3; i++){
             tern[i].style.transform = "rotateX(7200deg)"
         }
-    }return
+    }else {
 
     if (switchVar === 1){
         switchVar = 0
@@ -43,6 +43,7 @@ check.addEventListener("click", function(){
         for (var i = 0; i < 3; i++){
             tern[i].style.transform = ""
         }
-    }return
+    }
+    }
 })
 
