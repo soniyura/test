@@ -1,11 +1,4 @@
-#automat{
-    border: 1px solid black;
-    border-radius: 10px;
-    width: 375px;
-    height: 450px;
-    background-color: skyblue;
-    padding-top: 20px;
-}
+
 
 .wrap{
     border: 1px solid black;
@@ -66,6 +59,15 @@
 }
 
 button {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
+
+#inp {
     display: inline-block; /* Строчно-блочный элемент */
     background: #8C959D; /* Серый цвет фона */
     color: #fff; /* Белый цвет текста */
