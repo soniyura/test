@@ -6,10 +6,6 @@ var front = document.getElementsByClassName("front")
 var switchVar = 0;
 
 var balance = 1000;
-//document.getElementById('data').innerHTML = balance;
-//var bal = balanсe+100;
-//document.getElementById('datta').innerHTML = bal;
-
 
 check.addEventListener("click", function(){
 
